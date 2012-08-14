@@ -9,7 +9,7 @@
         <scene sceneID="A2h-ic-Zzb">
             <objects>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Af9-Qu-Hp8" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tableViewController id="MnC-8g-mJC" sceneMemberID="viewController">
+                <tableViewController id="MnC-8g-mJC" customClass="TableViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="xSD-7Q-7ua">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
