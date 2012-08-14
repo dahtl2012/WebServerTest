@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4B0E6D015DA7302003F355D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B4B0E6CF15DA7302003F355D /* README.md */; };
 		B4DB08E915DA71F800F16281 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DB08E815DA71F800F16281 /* UIKit.framework */; };
 		B4DB08EB15DA71F800F16281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DB08EA15DA71F800F16281 /* Foundation.framework */; };
 		B4DB08ED15DA71F800F16281 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DB08EC15DA71F800F16281 /* CoreGraphics.framework */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B4B0E6CF15DA7302003F355D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = WebServerTest/README.md; sourceTree = "<group>"; };
 		B4DB08E415DA71F800F16281 /* WebServerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebServerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DB08E815DA71F800F16281 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B4DB08EA15DA71F800F16281 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +55,7 @@
 				B4DB08F015DA71F800F16281 /* WebServerTest */,
 				B4DB08E715DA71F800F16281 /* Frameworks */,
 				B4DB08E515DA71F800F16281 /* Products */,
+				B4B0E6CF15DA7302003F355D /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4DB08F515DA71F800F16281 /* InfoPlist.strings in Resources */,
+				B4B0E6D015DA7302003F355D /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +275,7 @@
 				B4DB090315DA71F800F16281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
