@@ -12,6 +12,7 @@
 
 @property (nonatomic, strong) NSMutableArray *data;
 
+- (IBAction)refreshPressed:(id)sender;
 - (void) loadData;
 
 @end

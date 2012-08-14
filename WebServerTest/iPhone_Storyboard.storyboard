@@ -26,7 +26,13 @@
                             </tableViewCell>
                         </prototypes>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="Jb4-vD-tQp"/>
+                    <navigationItem key="navigationItem" title="Root View Controller" id="Jb4-vD-tQp">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="xF1-6a-kmc">
+                            <connections>
+                                <action selector="refreshPressed:" destination="MnC-8g-mJC" id="IyL-hh-9Ia"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
             </objects>
             <point key="canvasLocation" x="406" y="83"/>

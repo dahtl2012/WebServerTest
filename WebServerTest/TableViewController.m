@@ -130,6 +130,12 @@
 }
 
 #pragma mark - Data
+- (IBAction)refreshPressed:(id)sender {
+    
+    [self loadData];
+    [self.tableView reloadData];
+}
+
 -(void)loadData {
     
     NSURL *url = [[NSURL alloc] initWithString:@"http://dahtl2012.lima-city.de/data"];
