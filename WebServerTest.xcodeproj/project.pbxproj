@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B4B0E6D315DA7440003F355D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B4B0E6D215DA7440003F355D /* README.md */; };
+		B4B0E6D515DA74F9003F355D /* iPhone_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B0E6D415DA74F9003F355D /* iPhone_Storyboard.storyboard */; };
+		B4B0E6D715DA7507003F355D /* iPad_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B0E6D615DA7507003F355D /* iPad_Storyboard.storyboard */; };
 		B4DB08E915DA71F800F16281 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DB08E815DA71F800F16281 /* UIKit.framework */; };
 		B4DB08EB15DA71F800F16281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DB08EA15DA71F800F16281 /* Foundation.framework */; };
 		B4DB08ED15DA71F800F16281 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4DB08EC15DA71F800F16281 /* CoreGraphics.framework */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		B4B0E6D215DA7440003F355D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		B4B0E6D415DA74F9003F355D /* iPhone_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone_Storyboard.storyboard; sourceTree = "<group>"; };
+		B4B0E6D615DA7507003F355D /* iPad_Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad_Storyboard.storyboard; sourceTree = "<group>"; };
 		B4DB08E415DA71F800F16281 /* WebServerTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebServerTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DB08E815DA71F800F16281 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B4DB08EA15DA71F800F16281 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -84,6 +88,8 @@
 				B4DB08F915DA71F800F16281 /* AppDelegate.h */,
 				B4DB08FA15DA71F800F16281 /* AppDelegate.m */,
 				B4DB08FC15DA71F800F16281 /* WebServerTest.xcdatamodeld */,
+				B4B0E6D415DA74F9003F355D /* iPhone_Storyboard.storyboard */,
+				B4B0E6D615DA7507003F355D /* iPad_Storyboard.storyboard */,
 				B4DB08F115DA71F800F16281 /* Supporting Files */,
 			);
 			path = WebServerTest;
@@ -153,6 +159,8 @@
 			files = (
 				B4DB08F515DA71F800F16281 /* InfoPlist.strings in Resources */,
 				B4B0E6D315DA7440003F355D /* README.md in Resources */,
+				B4B0E6D515DA74F9003F355D /* iPhone_Storyboard.storyboard in Resources */,
+				B4B0E6D715DA7507003F355D /* iPad_Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
