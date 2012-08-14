@@ -38,7 +38,6 @@
         self.data = [[NSMutableArray alloc] init];
     }
     [self loadData];
-    NSLog(@"%@", [self.data objectAtIndex:0]);
 }
 
 - (void)viewDidUnload
@@ -59,14 +58,14 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 #warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 0;
+    return [self.data count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -75,6 +74,7 @@
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     
     // Configure the cell...
+    cell.textLabel.text = [self.data objectAtIndex:indexPath.row];
     
     return cell;
 }
