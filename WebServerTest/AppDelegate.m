@@ -5,7 +5,6 @@
 //  Created by Dominik Arnhof on 14.08.12.
 //  Copyright (c) 2012 HTL Hollabrunn. All rights reserved.
 //
-//  Das ist ein Test
 
 #import "AppDelegate.h"
 
